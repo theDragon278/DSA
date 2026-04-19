@@ -1,0 +1,11 @@
+# Ignore compiled Java files
+*.class
+
+# Optional
+*.log
+*.jar
+*.war
+*.ear
+
+# IDE files
+.vscode/
