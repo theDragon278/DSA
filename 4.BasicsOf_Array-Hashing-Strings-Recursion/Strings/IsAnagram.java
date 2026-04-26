@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class IsAnagram {
     // Brute Force Method
     // public static int[] createHashArray(String str) {
