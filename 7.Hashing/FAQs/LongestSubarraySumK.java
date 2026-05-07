@@ -3,6 +3,8 @@ import java.util.*;
 public class LongestSubarraySumK {
     // Optimal sol if array has both positive and negative value
     public static int longestSubarray(int[] nums, int k) {
+        if (nums == null || nums.length == 0)
+            return 0;
         HashMap<Integer, Integer> map = new HashMap<>();
         int sum = 0, maxLength = 0;
 
