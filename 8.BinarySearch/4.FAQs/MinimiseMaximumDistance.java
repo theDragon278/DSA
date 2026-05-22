@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     private int numberOfGasStationsRequired(double dist, int[] arr) {
         int n = arr.length;
