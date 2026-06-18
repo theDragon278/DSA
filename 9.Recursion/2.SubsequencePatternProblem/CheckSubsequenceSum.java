@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class CheckSubsequenceSum {
     public static boolean checkSubsequenceSumHelper(int[] nums, int indx, int k) {
         if (k == 0)
